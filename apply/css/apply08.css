@@ -1,0 +1,63 @@
+/*
+Author: Christian Morgan
+Date: 11/1/22
+File Name: apply08
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/* Adds a table around the table*/
+table{
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #71881b;
+}
+/* Create space on the table*/
+table, tr, th, td{
+  border-collapse: collapse;
+  padding: 2%;
+}
+/* Increase the font of the caption and increases space from table*/
+caption{
+  font-size: 2em;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+/*Adds border around the table headers and table data*/
+th, td {
+  border: 1px solid #71881b;
+}
+
+
+/*Center aligns table data */
+td{
+  text-align: center
+}
+
+/*Adds color to the odd rows in the table*/
+tr:nth-child(odd) {background-color: #d3e788;}
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
